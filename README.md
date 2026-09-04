@@ -1,6 +1,6 @@
 
 # Lottery-Game
-=======
+
 # React + Vite
 
 
