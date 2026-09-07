@@ -1,5 +1,5 @@
 .TicketNum{
-    font-size: 3rem;
-    display: flex;
-    /* flex-direction: row; */
+    font-size: 2rem;
+    display: inline-block;
+    /* margin-top:3rem; */
 }
