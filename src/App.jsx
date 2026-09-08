@@ -7,11 +7,12 @@ function App() {
 
   return (
     <>
-      <Lottery />
+      <Lottery n={3} winningSum={15} />
       {/* <TicketNum num="6"/>
       <TicketNum num="4"/>
       <TicketNum num="2"/> */}
-      <Ticket ticket={[6,4,2]}/>
+      {/* <Ticket ticket={[6,4,2]}/>
+      <Ticket ticket={[5,3,4,2]}/> */}
     </>
   )
 }

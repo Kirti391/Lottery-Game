@@ -6,10 +6,8 @@ export default function Ticket({ticket}){
             {/* <TicketNum num={ticket[0]}/>
             <TicketNum num={ticket[1]}/>
             <TicketNum num={ticket[2]}/>     */}
-
-            {ticket.map((num,index)=>{
-                return <TicketNum key={index} num={num}/>
-            })}
+             <p>Ticket</p>
+            {ticket.map((num,index)=><TicketNum key={index} num={num} />)}
         </div>
     )
 }
