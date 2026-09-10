@@ -1,6 +1,28 @@
-.TicketNum{
-    font-size: 2rem;
-    display: inline-block;
-    /* margin-bottom: 1rem; */
-    /* margin-top:3rem; */
+.TicketNum {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: #e8b7a0;
+    color: #3e3028;
+
+    border: 2px solid #c96a4a;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    box-shadow: 0 3px 8px rgba(62, 48, 40, 0.15);
+
+    transition: all 0.2s ease;
+}
+
+.TicketNum:hover {
+    transform: scale(1.08);
+    background-color: #c96a4a;
+    color: white;
 }
