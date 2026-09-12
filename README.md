@@ -178,7 +178,7 @@ Some possible improvements for the project:
 * Add unit tests for the lottery logic
 
 ## 👤 Author
-
+Kirti
 Created as a React practice project while learning component-based UI development.
 
 ---
